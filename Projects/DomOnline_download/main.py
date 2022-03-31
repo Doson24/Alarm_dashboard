@@ -11,6 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import os
 
+
 def get_urls(driver, url):
     # url = 'https://docs.domonline.ru/category.php?id=9&name=obshchie-sobraniya'
     driver.get(url)
